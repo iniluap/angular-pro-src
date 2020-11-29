@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AuthFormModule } from './auth-form/auth-form.module';
+import { AuthRememberComponent } from './auth-form/auth-remember.component';
+import { ShopFormModule } from './shop-form/shop-form.module';
 
 import { AppComponent } from './app.component';
 
@@ -11,7 +13,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AuthFormModule
+    AuthFormModule,
+    ShopFormModule,
   ],
   bootstrap: [
     AppComponent
