@@ -8,21 +8,8 @@ import { Order } from './shop-form/shop-form.interface';
   template: `
     <div class="form-wrapper">
       <auth-form 
-        (submitted)="createUser($event)">
-        <h3>Create account</h3>
-        <button type="submit">
-          Join us
-        </button>
-      </auth-form>
-      <auth-form 
         (submitted)="loginUser($event)">
         <h3>Login</h3>
-        <auth-remember
-          (checked)="rememberUser($event)">
-        </auth-remember>
-        <auth-remember
-          (checked)="rememberUser($event)">
-        </auth-remember>
         <auth-remember
           (checked)="rememberUser($event)">
         </auth-remember>
